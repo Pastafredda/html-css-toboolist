@@ -74,23 +74,74 @@ header{
 .titoli{
     font-weight: bold;
     font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .check::after{
-    content: "\002713";
-    color: green;
-    border: 2px solid green;
-    border-radius: 100%;
+    content: "\002714";
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 206, 96);
+    border: 2px solid rgb(0, 206, 96);
+    border-radius: 50%;
     padding: 2px;
 }
 
-.bluemark{
+.cross::after{
+    content: "\2717";
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px;
+    color: red;
+    border: 2px solid red;
+}
+.mark{
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+.blue{
     background-color: rgb(0, 149, 255);
     border-radius: 10px;
     padding: 4px;
 }
 
-.task{
+.quest{
     margin-top: 20px;
-    
+}
+
+.violet{
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(144, 90, 159);
+}
+
+.green{
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(100, 172, 94);
+
+}
+
+.orange{
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(235, 172, 85);
+
+}
+
+.pink{
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(235, 147, 210);
+}
+
+.skyblue{
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(124, 239, 187);
+
 }
