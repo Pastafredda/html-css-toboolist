@@ -12,20 +12,20 @@ body{
 }
 
 header{
-    padding: 10px;
+    padding: 10px 30px;
     background-color: white;
+    margin-bottom: 40px;
 }
 
 #scrittalogo{
     font-size: 40px;
     font-weight: bold;
-   
-    
+    vertical-align: middle;
 }
 
 #logo{
     line-height: 100px;
-    vertical-align: top;
+    vertical-align: middle;
     
 }
 
@@ -33,7 +33,7 @@ header{
     width: 60%;
     height: 50px;
     background-color: white;
-    margin: 40px auto;
+    margin:auto;
     border-radius:5px 5px 0 0 ;
 }
 
@@ -56,3 +56,41 @@ header{
 
 }
 
+.container{
+    width: 60%;
+    height: 580px;
+    margin: auto;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.container{
+    padding-left: 95px;
+    padding-top: 20px;
+}
+
+.titoli{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.check::after{
+    content: "\002713";
+    color: green;
+    border: 2px solid green;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.bluemark{
+    background-color: rgb(0, 149, 255);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.task{
+    margin-top: 20px;
+    
+}
